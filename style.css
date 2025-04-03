@@ -1,0 +1,124 @@
+div {
+	background: #1c232f;
+}
+
+h1 {
+	font-size: 64px;
+	margin: 0px;
+    padding: 10px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+h2,
+h3 {
+	color: #1c232f;
+}
+
+p,
+li {
+	line-height: 1.5em;
+}
+
+body {
+	margin: 0;
+	background-color: #f9f8f4;
+	font-family: "Inter", sans-serif;
+	color: #1c232f;
+}
+
+body {
+	margin: 0;
+	background-color: #f9f8f4;
+	font-family: "Inter", sans-serif;
+	color: #1c232f;
+	text-align: center;
+}
+li {
+	text-align: left;
+}
+
+ul li {
+	display: inline;
+}
+
+img {
+	width: 50%;
+	height: 400px;
+	object-fit: cover;
+}
+
+a {
+	text-decoration: none;
+	color: #886176;
+}
+
+a:hover {
+	color: #1c232f;
+}
+
+
+.card {
+	background: #ffffff;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.color-white {
+    color: white;
+    padding: 10px;
+}
+
+.btn-primary {
+	display: inline-block;
+	border-radius: 2px;
+	padding: 1rem 2rem;
+	font-weight: 600;
+	border: solid 2px #886176;
+	color: #886176;
+	transition: all 0.3s;
+}
+
+.btn-primary:hover {
+	color: #f9f8f4;
+	background-color: #886176;
+	transition: all 0.3s;
+}
+.logo {
+	width: 10%;
+	height: 10%;
+	padding: 10px;
+}
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #1c232f;
+  }
+  
+  .navbar .links {
+	display: flex;
+	gap: 2rem;
+	text-transform: uppercase;
+  }
+  
+  .navbar .links a {
+	color: #ffffff;
+	font-weight: bold;
+	padding: 0.5rem 0;
+	border-bottom: solid 2px transparent;
+	transition: all 0.3s;
+  }
+  
+  .navbar .links a:hover {
+	border-bottom: solid 2px #886176;
+  }
+
+  .cards-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 16px;
+  }
